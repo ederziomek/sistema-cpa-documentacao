@@ -1,55 +1,34 @@
-# Sistema CPA - Lista de Tarefas
+# TODO - Implementação CPA Validados na Página Afiliados2
 
-## Fase 1: Análise e preparação do ambiente
-- [x] Configurar credenciais Git
-- [x] Verificar acesso ao GitHub
-- [x] Analisar estrutura dos microserviços necessários
-- [x] Preparar ambiente de desenvolvimento
+## Fase 1: Análise dos documentos e contexto atual
+- [x] Analisar documento descritivo completo de integração CPA
+- [x] Analisar documento de credenciais do sistema CPA
+- [ ] Entender estrutura atual da página Afiliados2
+- [ ] Identificar os 4 serviços do Railway disponíveis
 
-## Fase 2: Configuração do GitHub e criação dos repositórios
-- [x] Criar repositório fature-config-service (https://github.com/ederziomek/fature-config-service)
-- [x] Criar repositório fature-mlm-service-v2 (https://github.com/ederziomek/fature-mlm-service-v2)
-- [x] Criar repositório fature-commission-service (https://github.com/ederziomek/fature-commission-service)
-- [x] Criar repositório fature-data-service-v2 (https://github.com/ederziomek/fature-data-service-v2)
+## Fase 2: Clonagem e análise do repositório backoffice-final
+- [x] Clonar repositório backoffice-final
+- [x] Localizar página Afiliados2
+- [x] Analisar código atual da interface
+- [x] Identificar estrutura de dados e APIs utilizadas
 
-## Fase 3: Criação dos microserviços Node.js
-- [x] Implementar Config Service
-- [x] Implementar MLM Service V2
-- [x] Implementar Commission Service
-- [x] Implementar Data Service V2
+## Fase 3: Implementação da interface com botões de alternância
+- [x] Criar botões "Indicações" e "CPA Validados"
+- [x] Implementar lógica de alternância entre visualizações
+- [x] Manter layout e estrutura existente
 
-## Fase 4: Configuração do Railway e criação dos bancos PostgreSQL
-- [x] Fazer login no Railway
-- [x] Usuário criou o projeto no Railway
-- [x] Criar banco fature-config-db
-- [x] Criar banco fature-mlm-db
-- [x] Criar banco fature-commission-db
-- [x] Criar banco fature-data-db
+## Fase 4: Integração com os serviços de CPA do Railway
+- [x] Integrar com serviços de CPA validados
+- [x] Implementar busca de dados de CPA por nível
+- [x] Calcular e exibir valor total de CPA na coluna correspondente
 
-## Fase 5: Configuração das variáveis de ambiente dos microserviços
-- [x] Configurar Config Service (PRIMEIRO)
-- [x] Configurar MLM Service V2
-- [x] Configurar Commission Service
-- [x] Configurar Data Service V2
+## Fase 5: Testes e validação da funcionalidade
+- [x] Testar alternância entre botões
+- [x] Validar exibição de dados de CPA
+- [x] Verificar responsividade e UX
 
-## Fase 6: Testes de integração e validação do sistema
-- [x] Testar Config Service
-- [x] Testar MLM Service V2
-- [x] Testar Commission Service
-- [x] Testar Data Service V2
-- [x] Validar comunicação entre serviços
-
-## Fase 7: Documentação final e entrega dos resultados
-- [x] Criar documentação técnica completa
-- [x] Gerar relatório de testes
-- [x] Converter documentação para PDF
-- [x] Preparar entregáveis finais
-- [x] Entregar resultados ao usuário
-
-## ✅ PROJETO CONCLUÍDO COM SUCESSO!
-
-## Fase 7: Documentação final e entrega dos resultados
-- [ ] Documentar URLs finais
-- [ ] Criar guia de uso
-- [ ] Entregar credenciais e acessos
+## Fase 6: Commit e push das alterações para o GitHub
+- [x] Fazer commit das alterações
+- [x] Push para o repositório
+- [x] Documentar mudanças implementadas
 
